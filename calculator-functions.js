@@ -143,7 +143,6 @@ $(document).ready(function(){
             numbers[i] = parseFloat(numbers[i]);
         }
 
-        console.log(numbers);
         value = numbers[0];
 
         for (let i = 1; i < numbers.length; i+= 2) {            
